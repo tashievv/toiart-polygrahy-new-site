@@ -1,0 +1,108 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+pre {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+}
+.logo {
+  font-family: "Fredoka One", cursive;
+  margin-left: 45px;
+  display: flex;
+}
+.logo-h1 {
+  font-family: "Lato", sans-serif;
+  color: green;
+  padding: 15px;
+}
+/*HEADER-NAV-PARTS*/
+.header-nav-section {
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  margin-left: 35px;
+}
+.header-nav-parts-img {
+  margin-left: 15px;
+}
+.phone-p {
+  margin-left: 5px;
+  font-family: "Roboto", sans-serif;
+}
+/*MAIN*/
+/*NAV*/
+.main-nav {
+  background-color: greenyellow;
+  color: black;
+  display: flex;
+}
+.nav-links-nav {
+  margin-left: 150px;
+}
+.nav-item-li {
+  display: inline-block;
+  margin-left: 30px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.nav-item {
+  display: inline-block;
+  margin-left: 30px;
+  transition: 0.5s;
+  text-decoration: none;
+  border-style: solid;
+  border-color: chartreuse;
+  border-radius: 5px;
+}
+.nav-item:hover {
+  border-color: blue;
+  background-image: url(./images/removingbackgroundimages_Unsplash.jpeg);
+  color: aliceblue;
+}
+/*ABOUT*/
+.about {
+  background-image: url(./images/thumb2-green-light-lines-background-neon-green-light-green-neon-circle-green-creative-background-green-lines.jpg);
+  display: flex;
+}
+.about-p {
+  margin-left: 50px;
+  color: aliceblue;
+}
+/*OUR-WORKS*/
+.global-h2 {
+  margin-left: 50px;
+}
+.our-works-img {
+  width: 450px;
+  height: 450px;
+  margin-left: 150px;
+}
+/*SERVICES*/
+.services {
+  background-image: url(./images/img-services/360_F_330237301_5u6eMcJaF9RGFzVhPVllIKKe0C94CdF7.jpg);
+}
+.services-img {
+  margin-left: 65px;
+}
+
+.global-h3 {
+  margin-left: 35px;
+}
+.services-right-side {
+  background-image: url(./images/img-services/istockphoto-1040511242-612x612.jpg);
+}
+.container-services {
+  display: flex;
+}
+.uf-print {
+  background-image: url(./images/img-services/istockphoto-1273929462-170667a.jpg);
+  color: aliceblue;
+  padding-right: 25px;
+}
